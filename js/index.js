@@ -5,7 +5,6 @@ let time = 300;
 
 const animation_1 = () => {
    document.querySelector("#intro_logo").classList.add("d-none");
-   // document.querySelector("#hero").classList.remove("d-none");
 }
 const animation_2 = () => {
    document.querySelector("#hero").classList.add("fade_in");
@@ -21,13 +20,6 @@ const animation_3 = () => {
 
 
 //#region EFECTO PARALLAX
-window.onscroll = function () {
-   let position = window.pageYOffset || document.documentElement.scrollTop;
-   let img_hamburger_1 = document.getElementById("img_hamburger_1");
-   let section_hamburgers = document.getElementById("section_hamburgers");
-   // console.log(section_hamburgers.style);
-   // img_hamburger_1.style.bottom = `${position * 0.01}px` ;
-}
 //#endregion EFECTO PARALLAX
 
 
