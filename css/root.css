@@ -60,7 +60,7 @@ html{
 */
 body{
    position: relative;
-   overflow-x: hidden !important;
+   overflow-x: hidden;
 }
 
 
@@ -74,5 +74,5 @@ body{
 |
 */
 body>section {
-   overflow: hidden !important;
+   overflow: hidden;
 }

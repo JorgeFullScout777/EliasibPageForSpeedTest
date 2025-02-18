@@ -67,17 +67,6 @@
    overflow-y: hidden;
 }
 
-
-a {
-   text-decoration: none;
-   color: inherit;
-   transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-a:hover {
-   opacity: .5;
-}
-
-
 /* #region BACKGROUNDS */
 .bg-dark {
    background-color: var(--color--bg--dark);
@@ -558,26 +547,12 @@ p {
 .px-4 {padding: 0 4rem;}
 .px-5 {padding: 0 5rem;}
 
-.py-auto {padding: auto 0;}
-.py-none {padding-top: 0; padding-bottom: 0;}
 .py-1 {padding-top: 1rem; padding-bottom: 1rem;}
-.py-2 {padding-top: 2rem; padding-bottom: 2rem;}
-.py-3 {padding-top: 3rem; padding-bottom: 3rem;}
-.py-4 {padding-top: 4rem; padding-bottom: 4rem;}
-.py-5 {padding-top: 5rem; padding-bottom: 5rem;}
 
-.my-auto {margin: auto 0;}
 .mx-auto {margin: 0 auto ;}
 .mr-1 {margin-right: 1rem;}
-.mr-2 {margin-right: 2rem;}
-.mr-3 {margin-right: 3rem;}
-.mr-4 {margin-right: 4rem;}
-.mr-5 {margin-right: 5rem;}
 
-.mt-1 {margin-top: 1rem;}
 .mt-2 {margin-top: 2rem;}
-.mt-3 {margin-top: 3rem;}
-.mt-4 {margin-top: 4rem;}
 
 /* #endregion PADDINGS & MARGINS */
 
